@@ -31,5 +31,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ShowListView(View view) {
-        startActivity(new Intent(this, MinimalExpandableExampleActivity.class));    }
+        startActivity(new Intent(this, ExpandableExampleActivity.class));    }
 }
