@@ -17,6 +17,17 @@
         android:layout_alignParentLeft="true"
         android:onClick="ShowGif"
         android:text="SHOW GIF"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="580dp"
+        android:gravity="center_horizontal"
+        android:onClick="ShowInventoryList"
+        android:text="Inventory"
         android:textAlignment="center" />
 
     <Button
@@ -26,5 +37,6 @@
         android:layout_alignParentRight="true"
         android:onClick="ShowListView"
         android:text="List"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
 </RelativeLayout>
