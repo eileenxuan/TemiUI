@@ -30,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
         Glide.with(this).load(R.drawable.happy).into(imageView);
     }
 
+    public void ShowInventoryList (View view) {
+        startActivity(new Intent(this, InventoryActivity.class));
+    }
+
     public void ShowListView(View view) {
         startActivity(new Intent(this, ExpandableExampleActivity.class));    }
 }

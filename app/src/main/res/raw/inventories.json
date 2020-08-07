@@ -1,0 +1,2 @@
+[{"name": "MacBook", "shape": "Cube", "color": "silver", "size": "small", "weight": "0.92 kg", "generalizedName": "Mac", "brand": "Apple"},
+{"name": "Surface", "shape": "Cube", "color": "white", "size": "small", "weight": "1.22 kg", "generalizedName": "surface", "brand": "Microsoft"}]
